@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="ass4.css">
+    </head>
+    <body>
+    <div id="main">
+        <h1>Zoo Keeper Application Form</h1>
+        <em>Please complete the form.Mandatory fields are marked as a<span class="required">*</span></em>
+        <form>
+           <fieldset id="first">
+               <legend>
+                   CONTACT DETAILS
+               </legend>
+               <table id="table1">
+                <TR>
+                    <TD><label for='name'>Name</label><span class="required">*</span></TD>
+                    <!-- This will create a textfield that is used to take single line input -->
+                    <TD><INPUT TYPE='TEXT' id='name' required/></TD>
+                </TR>
+                <TR>
+                    <TD><label for=''>Telephone</label></TD>
+                    <!-- This will create an passwordfield that is used to take line email -->
+                    <TD><INPUT TYPE='Telephone' id='telephone' /></TD>
+                </TR>
+                <TR>
+                    <TD><label for='email'>Email</label><span class="required">*</span></TD>
+                    <!-- This will create an emailfield that is used to take line email -->
+                    <TD><INPUT TYPE='EMAIL' id='email' /></TD>
+                </TR>               
+               </table>
+           </fieldset>
+
+           <fieldset id="second">
+               <legend>
+                   PERSONAL INFORMATION
+               </legend>
+               <table id="table2">
+               <TR>
+                <TD><label for='age'>Age</label><span class="required">*</span></TD>
+                <!-- This will create a textfield that is used to take single line input -->
+                <TD><INPUT TYPE='TEXT' PLACEHOLDER='' id='age' /></TD>
+               </TR>
+               <TR>
+                <TD><label for=''>Gender</label></TD>
+                <TD>
+                    <SELECT>                       
+                        <OPTION>Female</OPTION>
+                        <OPTION>Male</OPTION>                       
+                    </SELECT>
+                </TD>
+                </TR>
+                <TR>
+                    <TD><label for='data'>When did you first know you wanted to be a zoo-keeper</label></TD>
+                    <!-- This will create an textarea where you can type multiline text -->
+                    <TD><TEXTAREA rows='5' cols='25' id='data'></TEXTAREA></TD>
+                </TR>
+            </table>
+
+           </fieldset>
+        </TR>
+    </table>
+
+    <fieldset id="third">
+        <legend>PICK YOUR FAVOURITE ANIMALS</legend>
+        <table id="table3">
+        <TR>
+            <!-- Wanted to select more than one choice from the available choices then go for checkbox-->
+            <TD>
+                <INPUT TYPE='CHECKBOX' VALUE='Zebra' NAME='Zebra' ID='Zebra' />  <LABEL FOR='Zebra'>Zebra</LABEL>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <INPUT TYPE='CHECKBOX' VALUE='Cat' NAME='Cat' ID='Cat' />  <LABEL FOR='Cat'>Cat</LABEL>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <INPUT TYPE='CHECKBOX' VALUE='Anaconda' NAME='Anaconda' ID='Anaconda' />  <LABEL FOR='Anaconda'>Anaconda</LABEL>
+                <INPUT TYPE='CHECKBOX' VALUE='Human' NAME='Human' ID='Human' />  <LABEL FOR='Human'>Human</LABEL>
+            
+        </TR>
+        <TR>
+            <!-- Wanted to select more than one choice from the available choices then go for checkbox-->
+            <TD>
+                <INPUT TYPE='CHECKBOX' VALUE='Elephant' NAME='Elephant' ID='Elephant' />  <LABEL FOR='Elephant'>Elephant</LABEL>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <INPUT TYPE='CHECKBOX' VALUE='Wilderbeest' NAME='Wilderbeest' ID='Wilderbeest' />  <LABEL FOR='Wilderbeest'>Wilderbeest</LABEL>&nbsp;
+                <INPUT TYPE='CHECKBOX' VALUE='Pigeon' NAME='Pigeon' ID='Pigeon' />  <LABEL FOR='Pigeon'>Pigeon</LABEL>&nbsp;&nbsp;&nbsp;&nbsp;
+                <INPUT TYPE='CHECKBOX' VALUE='Crab' NAME='Crab' ID='Crab' />  <LABEL FOR='Crab'>Crab</LABEL>
+            </TD>
+        </TR>
+        </table>
+        </fieldset>
+
+        <table>
+        <TR>
+            <TD><INPUT TYPE='SUBMIT' VALUE='Submit Application'id="sub" /></TD>
+        </TR>
+        </table>
+        </form>
+        </div>
+    </body>
+</html>
