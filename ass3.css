@@ -1,0 +1,43 @@
+#main{
+    border-style:inset;
+    height: 210px;
+    margin-left: 20px;
+    margin-right:20px;    
+}
+#leftbox
+{
+    margin-left:80px;
+    float:left;
+    height:180px;
+    width:600px;   
+    border-right:1px solid black;
+    height:167px;   
+    font-family:calibri; 
+    margin-top: 20px;
+}
+#middlebox
+{   
+    float:left;
+    height:180px;
+    width:370px;
+    padding:5px 5px 5px 5px;
+    border-right:1px solid black;
+    height:158px;  
+    font-family:calibri;  
+    margin-top: 20px;
+}
+#rightbox
+{
+    font-weight:bold;
+    float:right;
+    height:180px;
+    width:298px;
+    font-size:18px;
+    padding:30px;
+    margin-right:50px;
+    font-family:calibri; 
+}
+
+a{
+    margin-left: 10px;
+}

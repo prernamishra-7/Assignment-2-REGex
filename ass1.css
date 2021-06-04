@@ -1,0 +1,12 @@
+body
+{
+    background-image: url("backgrounds.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    text-align:center;
+    font-family:Algerian;
+    color:#99722b;
+    padding:60px;
+}
+
